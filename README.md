@@ -1,4 +1,4 @@
-# SpaBatch
+# SpaTemporal
 ![image](https://github.com/JinyunNiu/SpaTemporal/blob/main/Overview.jpg)
 
 ## Overview
