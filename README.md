@@ -7,7 +7,7 @@ Here, we present SpaTemporal, a deep learning framework designed to integrate sp
 Comprehensive benchmarking across various platforms, resolutions, and species demonstrates that SpaTemporal significantly outperforms existing methods in identifying dynamic spatial domains. Moreover, by constructing a pseudo-spatiotemporal maps of spatial domains, SpaTemporal elucidates complex lineage dynamics during mouse embryonic development and precisely identifies key spatially variable and temporally associated genes. In a longitudinal mouse model of Alzheimer’s disease, SpaTemporal accurately delineates the evolutionary trajectory of pathological domains driven by Aβ deposition, successfully uncovering critical biomarkers associated with plaque progression.
 Overall, SpaTemporal provides a powerful computational solution for deciphering the development of complex biological tissues within a spatiotemporal transcriptomics framework.
 ## Datasets
-All data used in this work are available at: 
+All data used in this work are available at: https://zenodo.org/records/19591185.
 
 ## Installations
 - NVIDIA GPU (a single Nvidia GeForce RTX 4090).
