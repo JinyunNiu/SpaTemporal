@@ -16,7 +16,7 @@ All data used in this work are available at:
 ## Running demo
 
 ## Contact details
-If you have any questions, please contact niujinyun@aliyun.com
+If you have any questions, please contact niujinyun@aliyun.com.
 
 
 
