@@ -8,7 +8,7 @@ Comprehensive benchmarking across various platforms, resolutions, and species de
 Overall, SpaTemporal provides a powerful computational solution for deciphering the development of complex biological tissues within a spatiotemporal transcriptomics framework.
 
 ## Datasets
-All data used in this work are available at: https://zenodo.org/records/19591185.
+All data used in this work are available at: https://zenodo.org/records/19591185. \n
 The mouse embryo and mouse brain datasets can be downloaded from here: [https://db.cngb.org/stomics/datasets/STDS0000058](https://db.cngb.org/stomics/datasets/STDS0000058).
 The American axolotl telencephalon dataset can be downloaded here: [https://db.cngb.org/stomics/datasets/STDS0000058](https://db.cngb.org/stomics/datasets/STDS0000056/summary).
 The Alzheimer's disease mouse dataset can be downloaded here: https://singlecell.broadinstitute.org/single_cell/study/SCP1375/integrative-in-situ-mapping-of-single-cell-transcriptional-states-and-tissue-histopathology-in-an-alzheimer-disease-model#study-download.
