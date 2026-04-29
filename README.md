@@ -14,12 +14,16 @@ The American axolotl telencephalon dataset can be downloaded here: [https://db.c
 The Alzheimer's disease mouse dataset can be downloaded here: https://singlecell.broadinstitute.org/single_cell/study/SCP1375/integrative-in-situ-mapping-of-single-cell-transcriptional-states-and-tissue-histopathology-in-an-alzheimer-disease-model#study-download.
 
 ## Repository Structure
-├── configs/      # Experiment configurations (YAML)
-├── data/         # Data preprocessing and Dataset classes
-├── model/        # feature extraction, expression enhancement, and core network
-├── utils/        # Training engines and general utilities
-├── interface.py  # Main script bridging data preprocessing and model training
-└── pipeline.py   # Main script for model training
+
+```text
+DeepHEx/
+├── graph_3D.py/     # Constructing spatiotemporal graph
+├── mnn.py/          # Constructing triples across time points
+├── module.py/       # core network and mask data augmentation
+├── process.py/      # Data preprocessing
+├── train.py         # Model training
+└── utils.py         # Clustering and visualization
+```
 
 ## Installations
 - NVIDIA GPU (a single Nvidia GeForce RTX 4090).
