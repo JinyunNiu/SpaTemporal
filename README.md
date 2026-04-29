@@ -16,7 +16,7 @@ The Alzheimer's disease mouse dataset can be downloaded here: https://singlecell
 ## Repository Structure
 
 ```text
-DeepHEx/
+SpaTemporal/
 ├── graph_3D.py/     # Constructing spatiotemporal graph
 ├── mnn.py/          # Constructing triples across time points
 ├── module.py/       # core network and mask data augmentation
