@@ -1,5 +1,5 @@
 # SpaTemporal
-![image][([https://github.com/JinyunNiu/SpaTemporal/blob/main/Overview.jpg])](https://github.com/JinyunNiu/SpaTemporal/blob/main/Overview.jpg)
+![image][([https://github.com/JinyunNiu/SpaTemporal/blob/main/Overview.jpg])]
 
 ## Overview
 Spatiotemporal transcriptomics enables the characterization of gene expression dynamics within a spatial context over time, offering unprecedented opportunities to study complex biological processes such as development, tissue remodeling, and disease progression. However, significant morphological expansion and non-linear spatiotemporal evolution during developmental stages pose substantial challenges for the precise alignment and integration of multi-slice data across discrete time points.
