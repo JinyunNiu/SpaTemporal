@@ -30,7 +30,7 @@ SpaTemporal/
 - `pip install -r requiremnt.txt`
   
 ## Running demo
-Detailed tutorials can be found at this URL: https://spatemporal-tutorials.readthedocs.io/en/latest/
+Detailed tutorials can be found at this URL: https://spatemporal-tutorials.readthedocs.io/en/latest/.
 
 ## Contact details
 If you have any questions, please contact niujinyun@aliyun.com.
