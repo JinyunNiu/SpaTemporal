@@ -54,7 +54,6 @@ def hclust_dendrogram(
 
     labels = fcluster(Z, num_cluster, criterion='maxclust')
 
-    # 保存到 adata
     adata.obs['hclust'] = labels
     adata.obs['hclust'] = adata.obs['hclust'].astype('int')
     adata.obs['hclust'] = adata.obs['hclust'].astype('category')
