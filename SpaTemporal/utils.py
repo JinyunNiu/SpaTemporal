@@ -63,8 +63,8 @@ def hclust_dendrogram(
         plt.figure(figsize=(12, 6))
         dendrogram(
             Z,
-            truncate_mode='lastp',   # 只显示最后 p 个聚类
-            p=num_cluster,           # 这里显示多少个最终类
+            truncate_mode='lastp',
+            p=num_cluster,
             leaf_rotation=90.,
             leaf_font_size=10.,
             show_contracted=True
@@ -81,7 +81,6 @@ def hclust(adata, num_cluster, used_obsm='emb_pca', method='ward', metric='eucli
 
     data = adata.obsm[used_obsm]
 
-    # 使用 sklearn 的 AgglomerativeClustering
     clustering = AgglomerativeClustering(
         n_clusters=num_cluster,
         metric=metric,
@@ -98,7 +97,6 @@ def hclust(adata, num_cluster, used_obsm='emb_pca', method='ward', metric='eucli
 
 def mclust_R(adata, num_cluster, modelNames='EEE', used_obsm='emb_pca', key_added='mclust', random_seed=2025):
     """\
-    该函数用于在Python中使用mclust算法对给定数据进行聚类，并将聚类结果保存在AnnData对象的obs中。
     Clustering using the mclust algorithm.
     The parameters are the same as those in the R package mclust.
     """
@@ -227,7 +225,6 @@ import matplotlib
 from matplotlib import cm
 
 def plot_aligned_slices(adata, coor_key="loc_scaled", title="After alignment"):
-    # 创建颜色映射
     cmap = cm.get_cmap('rainbow', len(adata.obs["timepoint_numeric"].unique()))
     colors_list = [matplotlib.colors.rgb2hex(cmap(i)) for i in range(len(adata.obs["timepoint_numeric"].unique()))]
 
@@ -241,7 +238,7 @@ def plot_aligned_slices(adata, coor_key="loc_scaled", title="After alignment"):
                     s=5., alpha=0.5)
 
     ax = plt.gca()
-    ax.set_ylim(ax.get_ylim()[::-1])  # 翻转Y轴，保持与Visium坐标一致
+    ax.set_ylim(ax.get_ylim()[::-1])
     plt.xticks([])
     plt.yticks([])
     plt.legend(loc=(1.02, 0.2), ncol=(len(adata.obs["timepoint_numeric"].unique())//13 + 1))
