@@ -26,7 +26,7 @@ SpaTemporal/
 ```
 
 ## Installations
-- NVIDIA GPU (a single Nvidia GeForce RTX 4090).
+- NVIDIA GPU (Nvidia GeForce RTX 4090).
 - `pip install -r requiremnt.txt`
   
 ## Running demo
