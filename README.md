@@ -30,7 +30,15 @@ SpaTemporal/
 - `pip install -r requiremnt.txt`
   
 ## Running demo
-Detailed tutorials can be found at this URL: https://spatemporal-tutorials.readthedocs.io/en/latest/.
+This tutorial consists of seven step-by-step instructions covering the entire data alignment and integration workflow, and delivers the results of spatial-temporal domain identification：https://spatemporal-tutorials.readthedocs.io/en/latest/.
+
+- Tutorial 1: Alignment of developmental mouse embryo data
+- Tutorial 2: Alignment of developmental axolotl telencephalon data
+- Tutorial 3: Aligning different states and time periods of Alzheimer’s disease mice data
+- Tutorial 4: Integrating developmental mouse embryo data
+- Tutorial 5: Integrating developmental mouse brain data
+- Tutorial 6: Integrating developmental axolotl telencephalon data
+- Tutorial 7: Integrating Alzheimer’s mouse brain data
 
 ## Contact details
 If you have any questions, please contact niujinyun@aliyun.com.
