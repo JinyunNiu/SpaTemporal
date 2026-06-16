@@ -30,7 +30,9 @@ SpaTemporal/
 - `pip install -r requiremnt.txt`
   
 ## Running demo
-This tutorial consists of seven step-by-step instructions covering the entire data alignment and integration workflow, and delivers the results of spatial-temporal domain identification：https://spatemporal-tutorials.readthedocs.io/en/latest/.
+TThis step-by-step tutorial (7 chapters) covers the complete workflow for spatial-temporal data alignment and integration, leading directly to downstream domain identification.
+
+📖 Quick Start: https://spatemporal-tutorials.readthedocs.io/en/latest/.
 
 - Tutorial 1: Alignment of developmental mouse embryo data
 - Tutorial 2: Alignment of developmental axolotl telencephalon data
