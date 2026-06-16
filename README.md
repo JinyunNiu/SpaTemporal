@@ -32,7 +32,7 @@ SpaTemporal/
 ## Running demo
 TThis step-by-step tutorial (7 chapters) covers the complete workflow for spatial-temporal data alignment and integration, leading directly to downstream domain identification.
 
-📖 Quick Start: https://spatemporal-tutorials.readthedocs.io/en/latest/.
+Quick Start: https://spatemporal-tutorials.readthedocs.io/en/latest/.
 
 - Tutorial 1: Alignment of developmental mouse embryo data
 - Tutorial 2: Alignment of developmental axolotl telencephalon data
