@@ -1,7 +1,7 @@
 anndata==0.10.8
 h5py ==3.14.0
 hnswlib== 0.8.0
-numpy==1.26.4
+numpy==1.26.0
 pandas==2.3.2
 scikit-image==0.24.0
 scikit-learn==1.6.1
